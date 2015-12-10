@@ -50,6 +50,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="EmployeeSorterShould.cs" />
+    <Compile Include="QueueShould.cs" />
     <Compile Include="SingletonShould.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
