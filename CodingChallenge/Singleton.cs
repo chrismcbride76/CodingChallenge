@@ -1,17 +1,16 @@
 ﻿namespace CodingChallenge
 {
-public sealed class Singleton
-{
-   private static readonly Singleton instance = new Singleton();
-   
-   private Singleton(){}
+    public sealed class Singleton
+    {
+        private static readonly Singleton instance = new Singleton();
 
-   public static Singleton Instance
-   {
-      get 
-      {
-         return instance; 
-      }
-   }
-}
+        private Singleton()
+        {
+        }
+
+        public static Singleton Instance
+        {
+            get { return instance; }
+        }
+    }
 }
